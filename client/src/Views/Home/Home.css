@@ -1,0 +1,38 @@
+.home-container {
+  background-image: url("../../assets/bosqueReal.png");
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pagination-container-Cards {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  gap: 2em;
+  backdrop-filter: blur(0);
+  margin: 2rem auto; /* Centrar horizontalmente */
+  position: relative;
+  width: fit-content; /* Ajustar el ancho al contenido */
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* O flex-direction: row; según tus necesidades */
+  margin-top: 15rem; /* Ajusta el margen superior según sea necesario */
+}

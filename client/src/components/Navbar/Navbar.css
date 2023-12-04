@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'MiFont'; 
+  src: url('../../assets/font/Monoton-Regular.ttf') format('woff2'); 
+}
+
+.nav-container {
+  background-color: #354f52;
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  font-size: 1rem;
+  color: #ffee32;
+  font-family: 'MiFont';
+  margin-left: 9rem;
+}
+
+.logo-img{
+  width: 300px;
+}
+
+.button-container {
+  margin-right: 50px;
+  padding: auto;
+}
+
+.nav-button {
+  padding: 10px 15px;
+  margin: 25px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1px solid;
+  color: #ffd100;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, border-color 0.1s;
+  box-shadow: rgba(69, 244, 162, 0.322) 0px 30px 60px -12px inset, rgba(69, 244, 161) 0px 18px 36px -18px inset;
+  width: 100px;
+  height: 40px;
+  font-family: 'MiFont'; 
+}
+.exit:hover{
+  color: red !important;
+}
+
+.nav-button:hover {
+  background-color: #2f3e46;
+  color: #00d0ff;
+  border-color: #84a98c;
+}

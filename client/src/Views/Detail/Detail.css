@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'MiFont'; 
+  src: url('../../assets/font/Monoton-Regular.ttf') format('woff2'); 
+}
+
+
+.detail-container {
+  background-image: url("../../assets/Fotasa.png");
+  background-size: cover;
+  background-position: center;
+  height: 89.9vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.pokemon-card {
+  background-color: rgba(24, 23, 23, 0.96);
+  width: 40%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px rgba(245, 243, 243, 0.4);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.info-center {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  margin: 1rem;
+}
+
+.license-text {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'MiFont'; 
+  color: #FF0000ff;
+}
+
+.img-container {
+  height: 390px;
+  width: 270px;
+  border-radius: 5px;
+  margin-right: 80px;
+}
+
+.pokemon-field {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.back-home:hover {
+  background-color: grey;
+}

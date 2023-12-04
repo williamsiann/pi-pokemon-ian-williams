@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'MiFont'; 
+  src: url('../../assets/font/Monoton-Regular.ttf') format('woff2'); 
+}
+
+.filter-input {
+  color: rgb(255, 255, 255);
+  margin: 1.8rem;
+  font-family: 'MiFont'; 
+}
+
+.origen{
+    outline: none;
+    box-sizing: border-box;
+    height: 30px;
+    width: 9rem;
+    padding: 0 20px;
+    color: #000;
+    border-radius: 10px;
+    font-size: 20px;
+    
+    /* Centrar el elemento */
+    
+    position: absolute;
+    margin-left: 10rem;
+}
+
+.NavBar{
+  margin: 1rem;
+}
+
+.select{
+  margin: 0.2rem;
+}
